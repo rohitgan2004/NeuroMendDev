@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		922766502A781D83000D1D62 /* PCSSQuestionnaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227664F2A781D83000D1D62 /* PCSSQuestionnaire.swift */; };
+		922766522A781DC4000D1D62 /* PCSSQuestionnaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922766512A781DC4000D1D62 /* PCSSQuestionnaireView.swift */; };
+		922766542A781E09000D1D62 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922766532A781E09000D1D62 /* QuestionView.swift */; };
+		922B59A22A3764C0000D0575 /* NeuroMendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922B59A12A3764C0000D0575 /* NeuroMendApp.swift */; };
+		922B59A42A3764C0000D0575 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922B59A32A3764C0000D0575 /* ContentView.swift */; };
+		922B59A62A3764C1000D0575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 922B59A52A3764C1000D0575 /* Assets.xcassets */; };
+		922B59AA2A3764C1000D0575 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 922B59A92A3764C1000D0575 /* Preview Assets.xcassets */; };
+		922B59B12A37666F000D0575 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922B59B02A37666F000D0575 /* TabData.swift */; };
+		925D271A2A86AB580063D5F7 /* neuromend-alt-low-resolution-logo-color-on-transparent-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 925D27192A86AB580063D5F7 /* neuromend-alt-low-resolution-logo-color-on-transparent-background.png */; };
+		925D271C2A87E31E0063D5F7 /* VisioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925D271B2A87E31E0063D5F7 /* VisioView.swift */; };
+		925DF4D52A3797590031D438 /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925DF4D42A3797590031D438 /* ProgressCircleView.swift */; };
+		925DF4D72A37B18C0031D438 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925DF4D62A37B18C0031D438 /* ProgressView.swift */; };
+		925DF4D92A37B41B0031D438 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925DF4D82A37B41B0031D438 /* Extensions.swift */; };
+		925DF4DB2A37E4E30031D438 /* ProgressSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925DF4DA2A37E4E30031D438 /* ProgressSummary.swift */; };
+		925DF4DD2A37E8320031D438 /* DoActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925DF4DC2A37E8320031D438 /* DoActivitiesView.swift */; };
+		925DF4DF2A37EDF40031D438 /* logo-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 925DF4DE2A37EDF30031D438 /* logo-white.png */; };
+		925DF4E12A37F1B70031D438 /* RehabEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925DF4E02A37F1B70031D438 /* RehabEX.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9227664F2A781D83000D1D62 /* PCSSQuestionnaire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCSSQuestionnaire.swift; sourceTree = "<group>"; };
+		922766512A781DC4000D1D62 /* PCSSQuestionnaireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCSSQuestionnaireView.swift; sourceTree = "<group>"; };
+		922766532A781E09000D1D62 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		922B599E2A3764C0000D0575 /* NeuroMend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuroMend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		922B59A12A3764C0000D0575 /* NeuroMendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroMendApp.swift; sourceTree = "<group>"; };
+		922B59A32A3764C0000D0575 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		922B59A52A3764C1000D0575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		922B59A72A3764C1000D0575 /* NeuroMend.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NeuroMend.entitlements; sourceTree = "<group>"; };
+		922B59A92A3764C1000D0575 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		922B59B02A37666F000D0575 /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
+		925D27192A86AB580063D5F7 /* neuromend-alt-low-resolution-logo-color-on-transparent-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "neuromend-alt-low-resolution-logo-color-on-transparent-background.png"; path = "../../../Downloads/neuromend-alt-low-resolution-logo-color-on-transparent-background.png"; sourceTree = "<group>"; };
+		925D271B2A87E31E0063D5F7 /* VisioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisioView.swift; sourceTree = "<group>"; };
+		925DF4D42A3797590031D438 /* ProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
+		925DF4D62A37B18C0031D438 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		925DF4D82A37B41B0031D438 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		925DF4DA2A37E4E30031D438 /* ProgressSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressSummary.swift; sourceTree = "<group>"; };
+		925DF4DC2A37E8320031D438 /* DoActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoActivitiesView.swift; sourceTree = "<group>"; };
+		925DF4DE2A37EDF30031D438 /* logo-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-white.png"; path = "../../../Downloads/neuromend-logo-zip-file (1)/png/logo-white.png"; sourceTree = "<group>"; };
+		925DF4E02A37F1B70031D438 /* RehabEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehabEX.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		922B599B2A3764C0000D0575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		922B59952A3764C0000D0575 = {
+			isa = PBXGroup;
+			children = (
+				922B59A02A3764C0000D0575 /* NeuroMend */,
+				922B599F2A3764C0000D0575 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		922B599F2A3764C0000D0575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				922B599E2A3764C0000D0575 /* NeuroMend.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		922B59A02A3764C0000D0575 /* NeuroMend */ = {
+			isa = PBXGroup;
+			children = (
+				922B59A12A3764C0000D0575 /* NeuroMendApp.swift */,
+				922B59A32A3764C0000D0575 /* ContentView.swift */,
+				925DF4DE2A37EDF30031D438 /* logo-white.png */,
+				925DF4D42A3797590031D438 /* ProgressCircleView.swift */,
+				925DF4D82A37B41B0031D438 /* Extensions.swift */,
+				922B59A52A3764C1000D0575 /* Assets.xcassets */,
+				925D27192A86AB580063D5F7 /* neuromend-alt-low-resolution-logo-color-on-transparent-background.png */,
+				922B59A72A3764C1000D0575 /* NeuroMend.entitlements */,
+				922B59A82A3764C1000D0575 /* Preview Content */,
+				922B59B02A37666F000D0575 /* TabData.swift */,
+				925DF4D62A37B18C0031D438 /* ProgressView.swift */,
+				925DF4DA2A37E4E30031D438 /* ProgressSummary.swift */,
+				925DF4DC2A37E8320031D438 /* DoActivitiesView.swift */,
+				925DF4E02A37F1B70031D438 /* RehabEX.swift */,
+				9227664F2A781D83000D1D62 /* PCSSQuestionnaire.swift */,
+				922766512A781DC4000D1D62 /* PCSSQuestionnaireView.swift */,
+				922766532A781E09000D1D62 /* QuestionView.swift */,
+				925D271B2A87E31E0063D5F7 /* VisioView.swift */,
+			);
+			path = NeuroMend;
+			sourceTree = "<group>";
+		};
+		922B59A82A3764C1000D0575 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				922B59A92A3764C1000D0575 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		922B599D2A3764C0000D0575 /* NeuroMend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 922B59AD2A3764C1000D0575 /* Build configuration list for PBXNativeTarget "NeuroMend" */;
+			buildPhases = (
+				922B599A2A3764C0000D0575 /* Sources */,
+				922B599B2A3764C0000D0575 /* Frameworks */,
+				922B599C2A3764C0000D0575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuroMend;
+			productName = NeuroMend;
+			productReference = 922B599E2A3764C0000D0575 /* NeuroMend.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		922B59962A3764C0000D0575 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					922B599D2A3764C0000D0575 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 922B59992A3764C0000D0575 /* Build configuration list for PBXProject "NeuroMend" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 922B59952A3764C0000D0575;
+			productRefGroup = 922B599F2A3764C0000D0575 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				922B599D2A3764C0000D0575 /* NeuroMend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		922B599C2A3764C0000D0575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925DF4DF2A37EDF40031D438 /* logo-white.png in Resources */,
+				922B59AA2A3764C1000D0575 /* Preview Assets.xcassets in Resources */,
+				922B59A62A3764C1000D0575 /* Assets.xcassets in Resources */,
+				925D271A2A86AB580063D5F7 /* neuromend-alt-low-resolution-logo-color-on-transparent-background.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		922B599A2A3764C0000D0575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925DF4E12A37F1B70031D438 /* RehabEX.swift in Sources */,
+				925D271C2A87E31E0063D5F7 /* VisioView.swift in Sources */,
+				922B59A42A3764C0000D0575 /* ContentView.swift in Sources */,
+				925DF4D92A37B41B0031D438 /* Extensions.swift in Sources */,
+				925DF4D52A3797590031D438 /* ProgressCircleView.swift in Sources */,
+				922766542A781E09000D1D62 /* QuestionView.swift in Sources */,
+				925DF4D72A37B18C0031D438 /* ProgressView.swift in Sources */,
+				925DF4DD2A37E8320031D438 /* DoActivitiesView.swift in Sources */,
+				925DF4DB2A37E4E30031D438 /* ProgressSummary.swift in Sources */,
+				922766522A781DC4000D1D62 /* PCSSQuestionnaireView.swift in Sources */,
+				922B59B12A37666F000D0575 /* TabData.swift in Sources */,
+				922766502A781D83000D1D62 /* PCSSQuestionnaire.swift in Sources */,
+				922B59A22A3764C0000D0575 /* NeuroMendApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		922B59AB2A3764C1000D0575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		922B59AC2A3764C1000D0575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		922B59AE2A3764C1000D0575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NeuroMend/NeuroMend.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeuroMend/Preview Content\"";
+				DEVELOPMENT_TEAM = S6WQ6KYX62;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Neuromend;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.neuromend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		922B59AF2A3764C1000D0575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NeuroMend/NeuroMend.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeuroMend/Preview Content\"";
+				DEVELOPMENT_TEAM = S6WQ6KYX62;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Neuromend;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.neuromend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		922B59992A3764C0000D0575 /* Build configuration list for PBXProject "NeuroMend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922B59AB2A3764C1000D0575 /* Debug */,
+				922B59AC2A3764C1000D0575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		922B59AD2A3764C1000D0575 /* Build configuration list for PBXNativeTarget "NeuroMend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922B59AE2A3764C1000D0575 /* Debug */,
+				922B59AF2A3764C1000D0575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 922B59962A3764C0000D0575 /* Project object */;
+}

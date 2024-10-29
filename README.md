@@ -1,12 +1,29 @@
-NeuroMend - Remote Concussion Recovery Platform
-Overview
-NeuroMend is a full-stack iOS application designed to support remote patient monitoring for concussion recovery. The app allows users to perform visio-vestibular exams and directly share results with primary care providers (PCPs). By integrating an advanced eye-tracking algorithm, the platform ensures efficient, real-time monitoring, streamlining the recovery process for patients with concussions.
+# NeuroMend: Remote Patient Monitoring App
 
-Key Features
-Visio-Vestibular Exam Module: Patients can perform a series of visual and vestibular tests using their mobile devices, providing valuable data to healthcare professionals remotely.
-Eye-Tracking Module: The app incorporates an eye-tracking algorithm built with OpenCV, which accurately analyzes pupil movement to assess recovery progress. It improves detection accuracy by 25%, offering reliable results.
-Direct Data Transmission to PCPs: The app securely transmits patient data to primary care providers, enabling them to monitor progress and provide timely interventions.
-Technology Stack
-Front-End: Developed using Swift, the iOS app provides an intuitive and user-friendly interface, ensuring seamless patient interaction during exams.
-Back-End: Built on an AWS-powered cloud infrastructure, the back-end enables secure storage and transmission of patient data. It handles real-time data processing and compliance with healthcare privacy standards (e.g., HIPAA).
-Eye-Tracking Algorithm: Implemented using OpenCV in Python, the module captures and analyzes pupil movement to assess various metrics during remote exams.
+## Overview
+NeuroMend is a full-stack iOS application designed to aid in the remote monitoring of concussion recovery. The app enables patients to perform visio-vestibular exams and automatically send results to their Primary Care Physicians (PCPs). The application also includes an advanced eye-tracking module, facilitating remote diagnostics and improving accuracy in detecting concussive symptoms. This project was made in collaboration with Mikey Kistler.
+
+## Key Features
+- **Visio-Vestibular Exams**: Patients can perform tests directly through the app, with real-time guidance and results display.
+- **Direct Data Transmission**: Exam results are securely sent to the patient's PCP for evaluation, ensuring seamless communication between patients and healthcare providers.
+- **Eye-Tracking Module**: Integrates OpenCV-based pupil movement analysis, improving diagnostic accuracy by 25% and supporting remote concussion assessments.
+
+## Tech Stack
+- **Front-End**: Swift (iOS)
+- **Back-End**: AWS Cloud Infrastructure for secure data storage and transmission
+- **Computer Vision**: OpenCV library for real-time eye-tracking and image processing
+- **Database**: AWS RDS for patient data management
+- **Authentication**: OAuth 2.0 for secure user login and data access
+
+## System Architecture
+1. **iOS Front-End**:
+   - Built using Swift, the front-end offers an intuitive user interface for patients to complete visio-vestibular exams.
+   - The app ensures responsiveness and a seamless user experience, with error handling and in-app guidance for first-time users.
+
+2. **Cloud-Based Back-End**:
+   - Deployed on AWS, the back-end handles data storage, processing, and transmission.
+   - Ensures secure communication using encrypted protocols and real-time syncing with healthcare providers' dashboards.
+
+3. **Eye-Tracking Module**:
+   - Developed using OpenCV, the module captures real-time video, analyzes pupil movement patterns, and generates diagnostic results.
+   - The algorithm is optimized to run efficiently on iOS devices, providing fast, accurate feedback for remote patient assessments.
